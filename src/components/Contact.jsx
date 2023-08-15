@@ -7,9 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//service_wscvxzv
-//template_of8if5f
-//geDWjMS54wVPzIFPn
+//service_6ngdpbc
+//template_2dj8bvc
+//yt0ZANBZyXajUoXmF
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,16 +31,16 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send( 'service_wscvxzv', 
-                  'template_of8if5f', 
+    emailjs.send( 'service_6ngdpbc', 
+                  'template_2dj8bvc', 
                   {
                     from_name: form.name,
-                    to_name: 'Rishabh',
+                    to_name: 'Meetul',
                     from_email: form.email,
-                    to_email: 'rishabhrocks609@gmail.com',
+                    to_email: 'meetulchoudary0205@gmail.com',
                     message: form.message,
                   },
-                   'geDWjMS54wVPzIFPn'
+                   'yt0ZANBZyXajUoXmF'
                 )
                 .then(() => {
                   setLoading(false);

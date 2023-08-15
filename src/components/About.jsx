@@ -48,7 +48,13 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
       Highly motivated software engineer with strong problem-solving skills and a passion for creating efficient and scalable solutions with
-      a keen interest to gain proficiency in Data Analysis, Artificial Intelligence and Machine Learning and Deep Learning
+      a keen interest to gain proficiency in Data Analysis, Artificial Intelligence and Machine Learning and Deep Learning <br />
+      <b>SKILLS:</b><br /> 
+        <b>Frameworks:</b> Pandas, NumPy, Scikit-Learn, NLTK, TensorFlow, OpenCV, PyTorch, Keras, Matplotlib, Seaborn, Tableau, Excel, Power BI   <br />
+        <b>ML/ DL Techniques:</b> Linear Regression, Logistic Regression, Decision/ Random Forest, K-NN, Naïve Bayes, SVM, K-Means, CNN <br />
+        <b>Platforms:</b> VS Code, Jupyter Notebook, PyCharm, AWS <br />
+        <b>Programming Language:</b> Java, Python, MySQL  <br />
+        <b>Soft Skills:</b> Teamwork, Communication, Problem-solving, Interpersonal Skills<br />
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -1,29 +1,9 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
     manipal,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
     abg,
     tgv,
     pycharm,
@@ -49,7 +29,7 @@ import {
     ml,
     da,
     dl,
-    pyd
+    pyd,
   } from "../assets";
   
   export const navLinks = [
@@ -135,10 +115,10 @@ import {
       name: "Git",
       icon: git,
     },
-    {
-      name: "Tableau",
-      icon: tableau,
-    },
+    // {
+    //   name: "Tableau",
+    //   icon: tableau,
+    // },
     {
       name: "Excel",
       icon: excel,
@@ -147,30 +127,30 @@ import {
       name: "PowerBI",
       icon: powerbi,
     },
-    {
-      name: "VSCode",
-      icon: vscode,
-    },
-    {
-      name: "Jupyter NB",
-      icon: jupyter,
-    },
-    {
-      name: "PyCharm",
-      icon: pycharm,
-    },
-    {
-      name: "Java",
-      icon: java,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
+    // {
+    //   name: "VSCode",
+    //   icon: vscode,
+    // },
+    // {
+    //   name: "Jupyter NB",
+    //   icon: jupyter,
+    // },
+    // {
+    //   name: "PyCharm",
+    //   icon: pycharm,
+    // },
+    // {
+    //   name: "Java",
+    //   icon: java,
+    // },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
+    // {
+    //   name: "MySQL",
+    //   icon: mysql,
+    // },
   ];
   
   const experiences = [
@@ -216,23 +196,23 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Meetul consistently uncovers invaluable insights from complex data, revolutionizing our business strategies",
+      name: "Khushal Issrani",
+      designation: "SPC",
+      company: "Manipal University Jaipur",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Incredible analytical prowess and strategic thinking make Meetul an indispensable asset to any data-driven team.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial:
+        "Masterfully transforming data into compelling visuals, Meetul bridges the gap between analytics and effective communication.",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
